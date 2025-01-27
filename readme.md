@@ -9,6 +9,8 @@ AI engineers could be motivated to use embeddings models.
 
 Embeddings models provide a robust way to capture the semantic information of images, enabling efficient and meaningful indexing. By converting images into high-dimensional vectors, these models facilitate similarity searches, clustering, and classification tasks. The potential benefits include improved retrieval accuracy, reduced computational overhead, and the ability to uncover hidden patterns within large image datasets.
 
+![MedicalImageParse](https://ai.azure.com/explore/models/MedImageInsight/version/5/registry/azureml?wsid=/subscriptions/1c47c29b-10d8-4bc6-a024-05ec921662cb/resourceGroups/rg-policy-chatbot/providers/Microsoft.MachineLearningServices/workspaces/p-jpggz&tid=16b3c013-d300-468d-ac64-7eda0820b6d3)
+
 # Differences
 
 The compute_diff function calculates the squared Maximum Mean Discrepancy (MMD) between two datasets, x and y, using the Gaussian (RBF) kernel. This metric measures the difference between the distributions of x and y.
