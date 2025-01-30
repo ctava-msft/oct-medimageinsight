@@ -9,7 +9,9 @@ AI engineers could be motivated to use embeddings models.
 
 Embeddings models provide a robust way to capture the semantic information of images, enabling efficient and meaningful indexing. By converting images into high-dimensional vectors, these models facilitate similarity searches, clustering, and classification tasks. The potential benefits include improved retrieval accuracy, reduced computational overhead, and the ability to uncover hidden patterns within large image datasets.
 
-![MedicalImageParse](https://ai.azure.com/explore/models/MedImageInsight/version/5/registry/azureml?wsid=/subscriptions/1c47c29b-10d8-4bc6-a024-05ec921662cb/resourceGroups/rg-policy-chatbot/providers/Microsoft.MachineLearningServices/workspaces/p-jpggz&tid=16b3c013-d300-468d-ac64-7eda0820b6d3)
+![MedicalImageParse Model](https://ai.azure.com/explore/models/MedImageInsight/version/5/registry/azureml)
+
+![MedicalImageParse Paoer](https://arxiv.org/pdf/2410.06542)
 
 # Differences
 
