@@ -11,7 +11,7 @@ Embeddings models provide a robust way to capture the semantic information of im
 
 [MedicalImageParse Model](https://ai.azure.com/explore/models/MedImageInsight/version/5/registry/azureml)
   
-[MedicalImageParse Paoer](https://arxiv.org/pdf/2410.06542)
+[MedicalImageParse Paper](https://arxiv.org/pdf/2410.06542)
 
 # Differences
 
