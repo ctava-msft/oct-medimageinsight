@@ -103,32 +103,6 @@ def run_query(query):
     stored_embeddings = [np.squeeze(item['embedding']) for item in items]  # Ensure each embedding is 1D
     filenames = [item.get('filename', 'unknown') for item in items]  # Adjust as needed
 
-    # #neighbors = response_json["value"]
-    # K1, K2 = 3, 4
-
-    # def make_pil_image(image_path):
-    #     pil_image = Image.open(image_path)
-    #     return pil_image
-
-    # _, axes = plt.subplots(nrows=K1 + 1, ncols=K2, figsize=(64, 64))
-    # for i in range(K1 + 1):
-    #     for j in range(K2):
-    #         axes[i, j].axis("off")
-
-    # i, j = 0, 0
-
-    # for neighbor in items:
-    #     pil_image = make_pil_image(neighbor["filename"])
-    #     axes[i, j].imshow(np.asarray(pil_image), aspect="auto")
-    #     axes[i, j].text(1, 1, "{:.4f}".format(neighbor["@search.score"]), fontsize=32)
-
-    #     j += 1
-    #     if j == K2:
-    #         i += 1
-    #         j = 0
-
-    # plt.show()
-
 
     # Compute cosine similarity
     similarities = cosine_similarity([QUERY_TEXT_EMBEDDING], stored_embeddings)[0]

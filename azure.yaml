@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
 
-name: cosmos-copilot
+name: cosmos-image-insight
 metadata:
-  template: cosmos-copilot
+  template: cosmos-image-insight
 resourceGroup: existing-resource-group-name
 hooks:
   preprovision:
