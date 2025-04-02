@@ -8,14 +8,8 @@ Embeddings models provide a robust way to capture the semantic information of im
 
 # MedImageInsight
 
-<<<<<<< HEAD
-[MedicalImageParse Model](https://ai.azure.com/explore/models/MedImageInsight/version/5/registry/azureml)
-  
-[MedicalImageParse Paper](https://arxiv.org/pdf/2410.06542)
-=======
 The specific embeddings model used in this repo. can be found here:
 ![MedImageInsight](https://aka.ms/medimageinsightpaper)
->>>>>>> 37f4bc0 (chg: updated readme.md and scripts)
 
 # Setup Azure Infrastructure
 
@@ -43,12 +37,16 @@ pip install -r requirements.txt
 
 to ingest files into cosmosdb using embeddings model execute the following command:
 
-<<<<<<< HEAD
-az cosmosdb sql role assignment create --account-name "cosmos-khifsnz7gfujg" --resource-group "cosmodb-lab" --scope "/" --principal-id $(az ad signed-in-user show --query id -o tsv) --role-definition-id "00000000-0000-0000-0000-000000000002"
-=======
+```
+az cosmosdb sql role assignment create --account-name "cosmos-<redacted>" --resource-group "cosmodb-<redacted>" --scope "/" --principal-id $(az ad signed-in-user show --query id -o tsv) --role-definition-id "00000000-0000-0000-0000-000000000002"
+```
+
 `python ingest.py`
 
 to query files execute the following command:
 
-`python ingest.py`
->>>>>>> 37f4bc0 (chg: updated readme.md and scripts)
+`python query.py`
+
+Here is a visual of this process :
+
+![DME Embeddings Process](dme-embeddings.png)
